@@ -22,6 +22,7 @@ public class BATUZNBK {
             batura += i;
         }
         System.out.println("Zenbakien batura: " + batura);
+        System.out.println("GITHUB-EN EGIN DUT ALDAKETA");
         
     }
 }
