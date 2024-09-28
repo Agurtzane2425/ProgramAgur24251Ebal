@@ -11,7 +11,8 @@ public class BATUZNBK {
             zenbakia = scanner.nextInt();
 
             if (zenbakia < 0) {
-                System.out.println("Zenbaki negatiboa sartu duzu. Mesedez, sartu zenbaki positibo bat.");
+                //Etxeko adarra atalean txertatuko du iruzkina.
+            	System.out.println("Zenbaki negatiboa sartu duzu. Mesedez, sartu zenbaki positibo bat.");
             }
         } while (zenbakia < 0);
         scanner.close();
@@ -21,8 +22,7 @@ public class BATUZNBK {
         for (i = 0; i <= zenbakia; i++) {
             batura += i;
         }
-        System.out.println("Zenbakien batura: " + batura);
-        System.out.println("GITHUB-EN EGIN DUT ALDAKETA");
-        
+        //EtxekoAdarra
+        System.out.println("Zenbakien batura: " + batura);        
     }
 }
