@@ -45,6 +45,9 @@ public class MyWindowBuilderExample {
 
         // JProgressBar
         JProgressBar progressBar = new JProgressBar();
+        JTextField cajaDeTexto = new JTextField();
+        cajaDeTexto.setText("Agurtzane");
+        cajaDeTexto.setBounds(90, 60, 90, 23);
 
         // Osagaiak gehitu
         frame.add(label);
@@ -58,6 +61,7 @@ public class MyWindowBuilderExample {
         frame.add(slider);
         frame.add(spinner);
         frame.add(progressBar);
+        frame.add(cajaDeTexto);
 
         // Bistaratu
         frame.setVisible(true);
