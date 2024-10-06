@@ -46,7 +46,7 @@ public class ERROMAZNBK {
 		String erroma = "";
 
 		// Ehuneko
-		erroma += erromatarUnitaterapasatu(ehuneko, "C", "D", ""); // C = 100, D = 500 (no necesitamos "M")
+		erroma += erromatarUnitaterapasatu(ehuneko, "C", "D", "M"); // C = 100, D = 500 (no necesitamos "M")
 
 		// Hamarreko
 		erroma += erromatarUnitaterapasatu(hamarreko, "X", "L", "C"); // X = 10, L = 50, C = 100
